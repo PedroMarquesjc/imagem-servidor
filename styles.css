@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to right, #00008b, #87cefa);
+	background-color: #f1f1f1;
+    text-align: center;
+
+}
+h1 {
+    color: #0b0242;
+    font-size: 24px;
+    margin-top: 20px;
+}
+p {
+    color: #050101;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.foto_perfil {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #333;
+    text-align: left;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 10px;
+    left: -300px; 
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: left 0.3s ease;
+  }
+  
+  .menu-lateral.aberto {
+    left: 0; 
+  }
+  
+  .menu-lateral a {
+    color: #fff;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  #abrir-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  #fechar-menu{
+      left: auto;
+      
+  }
+  
